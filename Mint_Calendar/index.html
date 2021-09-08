@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mint Calendar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="special-fon"></div>
+
+<div class="container">
+    <div class="calendar">
+        <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+                <h1></h1>
+                <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+        </div>
+
+        <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+
+        <div id="days">
+        </div>
+
+    </div>
+</div>
+
+<div id="outer">
+    <div id="wrapper-create">
+        <div id="container-create">
+            <h1>Create an event for this day?</h1>
+            <div id="btn-container-crate">
+                <div id="btn-deny">DENY</div>
+                <div id="btn-create">CREATE</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="form">
+    <div id="form-wrapper">
+        <div id="form-container">
+            <h1 id="field-blank">Fill the form</h1>
+            <div id="form-field">
+                <div id="part1">
+                    <p>Enter the name</p>
+                    <input id="name">
+                </div>
+                <div id="part2">
+                    <p>Set time</p>
+                    <input id="time">
+                </div>
+                <div id="part3">
+                    <p>Write about</p>
+                    <textarea id="about"></textarea>
+                </div>
+                <div id="part4">
+                    <div id="btn-deny2">DENY</div>
+                    <div id="btn-create2">CREATE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

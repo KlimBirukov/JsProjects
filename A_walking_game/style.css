@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+}
+
+#menu,
+#play-menu {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn,
+#btn-start {
+    width: 12rem;
+    height: 4rem;
+    border: 2px solid #ff1493;
+    border-radius: 5px;
+    background-color: #e3256b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn:hover,
+#btn-start:hover {
+    border: 5px solid #bb1854;
+    border-radius: 10px;
+    background-color: #eb5f93;
+}
+
+#map {
+    width: 100%;
+    height: 46.5rem;
+    background-image: url("map.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.player {
+    width: 30px;
+    height: 30px;
+    content: '';
+    border-radius: 10px;
+    position: absolute;
+}
+
+.player:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#pl1 {
+    bottom: 90px;
+    right: 300px;
+    background-color: red;
+    display: none;
+    border: 2px dashed black;
+}
+
+#pl2 {
+    bottom: 85px;
+    right: 260px;
+    background-color: blue;
+    display: none;
+    border: 2px dashed black;
+}
+
+#pl3 {
+    bottom: 48px;
+    right: 245px;
+    background-color: green;
+    display: none;
+    border: 2px dashed black;
+}
+
+#pl4 {
+    bottom: 25px;
+    right: 280px;
+    background-color: yellow;
+    display: none;
+    border: 2px dashed black;
+}
+
+#pl5 {
+    background-color: purple;
+    bottom: 50px;
+    right: 310px;
+    display: none;
+    border: 2px dashed black;
+}
